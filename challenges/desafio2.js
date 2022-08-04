@@ -4,10 +4,10 @@ db.produtos
     },
     {
       nome: true,
-      vendidos:true,
-      _id:false
-    }
+      vendidos: true,
+      _id: false,
+    },
   )
   .sort({
-    vendidos: 1
+    vendidos: 1,
   });
